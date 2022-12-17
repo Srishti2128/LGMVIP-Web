@@ -1,5 +1,8 @@
 # Student Registration System
+
 Create a Registration Form whose data display in same page 
+
+https://stud-reg.netlify.app/
 
 <img width="1280" alt="3 1" src="https://user-images.githubusercontent.com/90510806/208249539-8c13be52-aeb3-4854-97df-479f1781733b.png">
 
