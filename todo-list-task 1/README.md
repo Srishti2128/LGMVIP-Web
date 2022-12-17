@@ -1,80 +1,8 @@
-# Create Todo React App easily with Material UI
+# Todo List
 
-To begin:
-<br />
-`npx create-react-app my-app`
-<br />
-`cd my-app`
-<br />
-`npm start`
+Task1 - Create TODO App to prioitize and create your tasks using React.
 
-Delete all default mark up.
-
-For components create folder #components in #src folder and place there your react components.
-In my project you can see: Form.jsx, FormInput.jsx, List.jsx.
-You can create as many components as you want and name it how you like.
-
-In this project Material-UI is used.
-To install run:
-<br />
-`npm install @material-ui/core`
-
-Material-UI was developed based on the Roboto font.
-The Roboto font will not be automatically loaded into Material-UI.
-*So be sure to install it.*
-
-To install run:
-<br />
-`npm install fontsource-roboto`
-
-Then import it in "index.js". To do so write in "index.js":
-<br />
-`import 'fontsource-roboto'`;
-
-To use icons run:
-<br />
-`npm install @material-ui/icons`
-
-Button example:
-```
-import  React from 'react';
-import Button from "@material-ui/core/Button";
-
-// custom styles with Material UI
-const useStyles = makeStyles({
-    root: {
-        background: 'linear-gradient(45deg, gray 30%, black 90%)',
-        border: 0,
-        color: 'white',
-        height: 30,
-        padding: '0 10px',
-        whiteSpace: 'nowrap',
-        margin: '15px 0 0 20px',
-    }
-});
-
-
-const Button = () => {
-   const classes = useStyles();
-    
-   return (
-      <Button
-           type="submit"
-           alt="add-note"
-           className={classes.root}
-       >
-           Add task
-       </Button>
-     )
-     
-export  default Button;
-```
-
-Then you can see the result - button "ADD TASK" look like:
-
-![Button example](https://github.com/EvaMalinina/todo-list-react-hooks/blob/master/src/demo/button%20git.gif)
-
-That was easy, right :)
-
-
+<img width="1100" alt="1 1" src="https://user-images.githubusercontent.com/90510806/208242176-719e89ce-fa9e-4d2a-93f6-c2a2a82d991c.png">
+<img width="1101" alt="1 2" src="https://user-images.githubusercontent.com/90510806/208242184-68cb9cae-c1f8-45b4-aba0-afa028a1cfbf.png">
+<img width="1102" alt="1 3" src="https://user-images.githubusercontent.com/90510806/208242195-ef34d788-2115-4ab1-b717-71c3a550ca80.png">
 
